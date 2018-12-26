@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/microsoft/azure/azure-eventhubs/1.0.0/azure-eventhubs-1.0.0.jar" sourcepath="M2_REPO/com/microsoft/azure/azure-eventhubs/1.0.0/azure-eventhubs-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/qpid/proton-j/0.25.0/proton-j-0.25.0.jar" sourcepath="M2_REPO/org/apache/qpid/proton-j/0.25.0/proton-j-0.25.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/microsoft/azure/azure-eventhubs-eph/1.0.0/azure-eventhubs-eph-1.0.0.jar" sourcepath="M2_REPO/com/microsoft/azure/azure-eventhubs-eph/1.0.0/azure-eventhubs-eph-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/microsoft/azure/azure-storage/6.1.0/azure-storage-6.1.0.jar" sourcepath="M2_REPO/com/microsoft/azure/azure-storage/6.1.0/azure-storage-6.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.6.0/jackson-core-2.6.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar" sourcepath="M2_REPO/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/microsoft/azure/azure-keyvault-core/0.8.0/azure-keyvault-core-0.8.0.jar" sourcepath="M2_REPO/com/microsoft/azure/azure-keyvault-core/0.8.0/azure-keyvault-core-0.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.8.2/gson-2.8.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar" sourcepath="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25-sources.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
