@@ -17,15 +17,15 @@ public class EventProcessorDemo{
     public static void main(String args[]) throws InterruptedException, ExecutionException{
     	
     	String consumerGroupName = "$Default";	//	as is let it be default
-    	String namespaceName = "mss-event-hubs";	//	event hubs / Event Hubs Namespace
-    	String eventHubName = "mss-event-hub";	//	name of event hub
-    	String sasKeyName = "SAS-policy-name";	//	create Shared access policies under event hub. Send/listen or both.
-    	String sasKey = "lEOhe5kQCNpf+q0rCTxpCaOfR7lx0wNMuEIuWlfIUc8=";	//	shared access policies key
+    	String namespaceName = "mss****";	//	event hubs / Event Hubs Namespace
+    	String eventHubName = "mss*****";	//	name of event hub
+    	String sasKeyName = "SAS***";	//	create Shared access policies under event hub. Send/listen or both.
+    	String sasKey = "***********";	//	shared access policies key
     	
     	/// storageConnectionString -> Storage account -> Access Keys default two keys key1 and key2 we get. use connection string
-    	String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=mssstorageac;AccountKey=bM3ptvfMhb3DJ1Pj6Zsh/tyJFNJj3qAMbCJXEdeyGVqcvcWSbA4aA+QJCISTCXSBDkTqVPLizK8qEs4TDbaRtg==;EndpointSuffix=core.windows.net";
-    	String storageContainerName = "mssstorageac";	//	Storage account name
-    	String hostNamePrefix = "MSSHostNamePrefix";	//	any name it will print something similar to.....  SAMPLE: Partition 1 batch size was 1 for host MSSHostNamePrefix-c2abce28-651b-4926-9ec5-0582f47b8b73
+    	String storageConnectionString = "*******";
+    	String storageContainerName = "***";	//	Storage account name
+    	String hostNamePrefix = "***";	//	any name it will print something similar to.....  SAMPLE: Partition 1 batch size was 1 for host MSSHostNamePrefix-c2abce28-651b-4926-9ec5-0582f47b8b73
     	
     	ConnectionStringBuilder eventHubConnectionString = new ConnectionStringBuilder()
     			.setNamespaceName(namespaceName)
